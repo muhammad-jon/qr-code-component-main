@@ -1,0 +1,59 @@
+:root {
+  --bg-color: #d5e1ef;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+.wrapper {
+  width: 100vw;
+  height: 100vh;
+  background-color: var(--bg-color);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card {
+  width: 100%;
+  max-width: 320px;
+  padding: 15px;
+  border-radius: 20px;
+  background-color: white;
+  text-align: center;
+}
+
+.card-image {
+  width: 100%;
+  max-width: 290px;
+  height: 290px;
+  background-image: url(".././images/image-qr-code.png");
+  background-size: cover;
+  border-radius: 10px;
+}
+
+.card-body h3 {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  line-height: 135%;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.card-body p {
+  color: #7d8091;
+  margin-bottom: 25px;
+}
